@@ -22,7 +22,77 @@
       }
 
       body {
-        height: 100vh;
+        min-height: 100vh;
+        font-family: sans-serif;
+        background-color: #f9fafb;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      main {
+        max-width: 600px;
+        width: 100%;
+        background-color: #f7f8fa;
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+        text-align: left;
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 4.5rem;
+      }
+
+      h1 {
+        font-size: 1.75rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+      }
+
+      p.subheading {
+        color: #6b7280;
+        font-size: 0.95rem;
+      }
+
+      section + section {
+        margin-top: 2rem;
+        border-top: 1px solid #e5e7eb;
+        padding-top: 2rem;
+      }
+
+      section h2 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+      }
+
+      section p,
+      section li {
+        font-size: 0.95rem;
+        color: #374151;
+      }
+
+      ol, ul {
+        padding-left: 1.25rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+      }
+
+      li {
+        margin-bottom: 0.5rem;
+      }
+
+      a {
+        color: #3b82f6;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
       }
 
       .author-info {
@@ -34,8 +104,9 @@
 
       .author-info a {
         text-decoration: none;
-      }
-    </style>
+        }
+
+  </style>
   </head>
   <body>
     
